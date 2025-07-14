@@ -8,5 +8,4 @@ st.markdown("# test")
 
 # Optional: embed another site (like https://snxstats.streamlit.app/)
 st.markdown("---")
-st.markdown("### Embedded Site (optional)")
 st.components.v1.iframe("https://snxstats.streamlit.app/", height=600, scrolling=True)
