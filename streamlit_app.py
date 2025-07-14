@@ -1,2 +1,12 @@
-h1 = "<h1>test</h1>"
-print(h1)
+import streamlit as st
+
+# Set page config (optional)
+st.set_page_config(page_title="Test Page", layout="centered")
+
+# Display H1 heading
+st.markdown("# test")
+
+# Optional: embed another site (like https://snxstats.streamlit.app/)
+st.markdown("---")
+st.markdown("### Embedded Site (optional)")
+st.components.v1.iframe("https://snxstats.streamlit.app/", height=600, scrolling=True)
